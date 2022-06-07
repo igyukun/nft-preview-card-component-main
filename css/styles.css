@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(13, 26, 45);
+  color: #FEFFFF;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+hr {
+  width: 85%;
+  border-top-color: #2F4159;
+  border-style: solid none none;
+}
+
+/*********** CONTAINER STYLES *************/
+.external-shade {
+  width: 23%;
+  padding: 20px 20px 30px 20px;
+  position: relative;
+  margin: auto;
+  background-color: #0C192C;
+  top: 100px;
+  border-radius: 15px;
+}
+
+.attribution {
+  width: 95%;
+  background-color: #15273F;
+  padding: 10px 0 10px 0;
+  margin: auto;
+  font-size: 0.8rem;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  box-shadow: 0px 20px 25px #091016;
+  text-decoration: none;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.offer-container {
+  position: relative;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-child {
+  position: relative;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  /* font-family: 'Rubik', sans-serif; */
+  font-size: 1.1rem;
+}
+
+.etherium {
+  color: #00FFF8;
+  font-weight: bold;
+}
+
+.time {
+  color: #6982A1;
+}
+
+.credits-row {
+  width: 85%;
+  position: relative;
+  display: flex;
+  margin: 20px auto;
+  /* font-family: 'Rubik', sans-serif; */
+  font-size: 0.9rem;
+  align-items: center;
+}
+
+/************ IMAGES STYLES ************/
+.image-equilibrium {
+  width: 87%;
+  margin: 15px auto;
+  border-radius: 8px;
+}
+
+.etherium-icon {
+  margin-right: 10px;
+  float: left;
+}
+
+.icon-clock {
+  margin-right: 5px;
+  float: left;
+}
+
+.image-avatar {
+  width: 2rem;
+  height: 2rem;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1rem;
+  float: left;
+}
+
+/*********** TEXT STYLES ***************/
+.equilibrium-num {
+  width: 85%;
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #FEFFFF;
+  margin: auto;
+  /* padding-top: 5px; */
+  padding-bottom: 15px;
+  /* font-family: 'Rubik', sans-serif; */
+
+}
+
+.slogan {
+  width: 85%;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #6982A1;
+  margin: auto;
+  /* font-family: 'Rubik', sans-serif; */
+  line-height: 1.5;
+}
+
+.credits-text {
+  color: #6982A1;
+  margin-left: 10px;
+}
+
+.creator-name {
+  color: #FEFFFF
+}
